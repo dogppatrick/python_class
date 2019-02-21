@@ -1,0 +1,9 @@
+					C
+0	                Attention:	 14	 5
+1	           Activity Level:	  7	 5
+2	              Impulsivity:	  7	 6
+3	               Adaptation:	  6	 7
+4	       Moods & Confidence:	 18	 5
+5	        Energy & Feelings:	 10	 7
+6	         Social Abilities:	 13	 6
+7	 Sensitivity & Regulation:	 19	 6
