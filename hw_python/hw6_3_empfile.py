@@ -1,6 +1,5 @@
 import hw_python.hw6_1_employee as E
 emp_data = []
-# empn = 0
 ec_list = []
 with open("data.csv", "r") as f:
     read1 = f.readline()
