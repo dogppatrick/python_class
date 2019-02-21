@@ -33,6 +33,11 @@ with open("scale.txt", "r") as f2:
             item_scale.append(int(data_sp[i].split(sep="\t")[item_sum[q]-item_count[q]]))
             q = q + 1
 
-print(subject_age_class)
+print("\t\t\t\t\t", subject_age_class.upper())
 for i in range(len(item_class)):
     print("%d\t%25s:\t %2d\t %d" % (i, item_class[i], item_sum[i], item_scale[i]))
+
+with open("output.txt", "w") as f3:
+    f3.write("\t\t\t\t\t" + subject_age_class.upper()+"\n")
+    for i in range(len(item_class)):
+        f3.write("%d\t%25s:\t %2d\t %d\n" % (i, item_class[i], item_sum[i], item_scale[i]))
