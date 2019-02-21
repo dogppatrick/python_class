@@ -8,7 +8,7 @@ item_scale = []
 age_class = ["a", "b", "c", "d"]
 c = -1
 q = 0
-with open("data_input.dat", "r") as f:
+with open("input.txt", "r") as f:
     rl = f.read(1)
     subject_age_class = rl
     rl = f.readline()
