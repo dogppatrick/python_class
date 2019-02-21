@@ -6,9 +6,8 @@ item_sum = []
 item_count = []
 item_scale = []
 age_class = ["a", "b", "c", "d"]
-subject_age_class = ""
 c = -1
-
+q = 0
 with open("data_input.dat", "r") as f:
     rl = f.read(1)
     subject_age_class = rl
@@ -24,26 +23,16 @@ with open("data_input.dat", "r") as f:
                 item_sum[c] = item_sum[c] + int(rl)
                 item_count[c] = item_count[c] + 1
 # read data and count total score
-
-
-subject_age_class = age_class.index(subject_age_class)
+sc = age_class.index(subject_age_class)
 
 with open("scale.txt", "r") as f2:
-    rl = f2.readline()
-    while rl != "":
-        rl = f2.readline()
-        for i in range(subject_age_class):
-            f2.readline()
-        line_spit = rl.split(sep="\t")
-        print(line_spit)
-        for i in range(4 - subject_age_class):
-            f2.readline()
+    scale_data = f2.read()
+    data_sp = scale_data.split(sep="\n")
+    for i in range(len(data_sp)):
+        if i % 5 == sc+1:
+            item_scale.append(int(data_sp[i].split(sep="\t")[item_sum[q]-item_count[q]]))
+            q = q + 1
 
-
-
-# for i in range(len(item_class)):
-#     print("%25s:\t %2d\t %d" % (item_class[i], item_sum[i], item_count[i]))
-#
-# print(subject_age_class)
-
-
+print(subject_age_class)
+for i in range(len(item_class)):
+    print("%d\t%25s:\t %2d\t %d" % (i, item_class[i], item_sum[i], item_scale[i]))
