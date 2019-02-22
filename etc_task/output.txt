@@ -1,9 +1,9 @@
-					C
-0	                Attention:	 14	 5
-1	           Activity Level:	  7	 5
-2	              Impulsivity:	  7	 6
-3	               Adaptation:	  6	 7
-4	       Moods & Confidence:	 18	 5
-5	        Energy & Feelings:	 10	 7
-6	         Social Abilities:	 13	 6
-7	 Sensitivity & Regulation:	 19	 6
+年齡 class:4歲~6歲11個月	class:C
+注意力                   14 	5  
+活動量                   7  	5  
+衝動性                   7  	6  
+適應性                   6  	7  
+情緒與自信               18 	5  
+活力與情感表達           10 	7  
+社交性                   13 	6  
+感覺敏感與思考調節       19 	6  
