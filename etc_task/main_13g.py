@@ -50,21 +50,10 @@ with open("scale_total.txt", "r") as f4:
     data_sp = scale_data.split(sep="\n")
     for i in range(len(data_sp)):
         if i % 5 == sc+1:
-            # scale_list = data_sp[i].split(sep="\t")
-            # index_scale = sum_scale_raw[q]-sum_item_count[q]
-            # print(index_scale)
-            # sum_scale.append(scale_list[index_scale])
+
             sum_scale.append(int(data_sp[i].split(sep="\t")[sum_scale_raw[q]-sum_item_count[q]]))
             print(sum_scale[q])
             q = q + 1
-
-
-# print("\t\t\t\t\t", subject_age_class.upper())
-# for i in range(len(item_class)):
-#     print("%d\t%25s:\t %2d\t %d" % (i, item_class[i], item_sum[i], item_scale[i]))
-# print(item_class_des)
-# print(item_sum)
-# print(item_scale)
 for i in range(len(item_scale)):
     print("%-15s:%2d%2d" % (item_class_des[i], item_sum[i], item_scale[i]))
 with open("output.txt", "w", encoding="utf-8") as f3:
