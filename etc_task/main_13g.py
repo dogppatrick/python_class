@@ -35,8 +35,8 @@ with open("scale.txt", "r") as f2:
             item_scale.append(int(data_sp[i].split(sep="\t")[item_sum[q]-item_count[q]]))
             q = q + 1
 
-cognitive_social_total = item_scale[0] + item_scale[1] + item_scale[2] + item_scale[6]
-emotions_regulation = sum(item_scale) - cognitive_social_total
+cognitive_social_total = item_sum[0] + item_sum[1] + item_sum[2] + item_sum[6]
+emotions_regulation = sum(item_sum) - cognitive_social_total
 sum_scale_raw = []
 sum_item_count = []
 sum_scale = []
@@ -50,23 +50,39 @@ with open("scale_total.txt", "r") as f4:
     data_sp = scale_data.split(sep="\n")
     for i in range(len(data_sp)):
         if i % 5 == sc+1:
+            # scale_list = data_sp[i].split(sep="\t")
+            # index_scale = sum_scale_raw[q]-sum_item_count[q]
+            # print(index_scale)
+            # sum_scale.append(scale_list[index_scale])
             sum_scale.append(int(data_sp[i].split(sep="\t")[sum_scale_raw[q]-sum_item_count[q]]))
+            print(sum_scale[q])
             q = q + 1
+
 
 # print("\t\t\t\t\t", subject_age_class.upper())
 # for i in range(len(item_class)):
 #     print("%d\t%25s:\t %2d\t %d" % (i, item_class[i], item_sum[i], item_scale[i]))
-print(item_class_des)
-print(item_sum)
-print(item_scale)
+# print(item_class_des)
+# print(item_sum)
+# print(item_scale)
 for i in range(len(item_scale)):
     print("%-15s:%2d%2d" % (item_class_des[i], item_sum[i], item_scale[i]))
 with open("output.txt", "w", encoding="utf-8") as f3:
+    f3.write("Leiter-R Parent Rating Scale\n")
     f3.write("年齡 class:" + age_class_des[sc] + "\tclass:" + subject_age_class.upper() + "\n")
+    f3.write("領域\t\t\t\t原始分數\t量表\t題目數量\n")
     for i in range(len(item_class)):
         # f3.write("%20s:%2d\t%2d\n" % (item_class_des[i], item_sum[i], item_scale[i]))
         f3.write("%-16s" % (item_class_des[i]))
         for j in range(9-len(item_class_des[i])):
             f3.write(" ")
         f3.write("%-3d\t" % (item_sum[i]))
-        f3.write(("%-3d\n")% (item_scale[i]))
+        if item_scale[i] >= 6:
+            f3.write("%-s*\t\t" % (item_scale[i]))
+        else:
+            f3.write("%-s\t\t" % (item_scale[i]))
+        f3.write("%-3d\n" % item_count[i])
+    f3.write("量表\t\t\t原始總分\t量尺總分\n")
+    f3.write("認知／社交功能: %3d\t\t\t%3s\n" % (cognitive_social_total, sum_scale[0]))
+    f3.write("情緒／調節:     %3d\t\t\t%3s\n" % (emotions_regulation, sum_scale[1]))
+    f3.write("註：標註(*)為達臨床顯著性(cutoff point<=6)")
