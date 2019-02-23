@@ -59,7 +59,7 @@ for i in range(len(item_scale)):
 with open("output.txt", "w", encoding="utf-8") as f3:
     f3.write("Leiter-R Parent Rating Scale\n")
     f3.write("年齡 class:" + age_class_des[sc] + "\tclass:" + subject_age_class.upper() + "\n")
-    f3.write("領域\t\t\t\t原始分數\t量表\t題目數量\n")
+    f3.write("領域\t\t\t\t原始分數\t量表\t\n")
     for i in range(len(item_class)):
         # f3.write("%20s:%2d\t%2d\n" % (item_class_des[i], item_sum[i], item_scale[i]))
         f3.write("%-16s" % (item_class_des[i]))
@@ -70,7 +70,8 @@ with open("output.txt", "w", encoding="utf-8") as f3:
             f3.write("%-s*\t\t" % (item_scale[i]))
         else:
             f3.write("%-s\t\t" % (item_scale[i]))
-        f3.write("%-3d\n" % item_count[i])
+        f3.write("\n")
+        # f3.write("%-3d\n" % item_count[i])
     f3.write("量表\t\t\t原始總分\t量尺總分\n")
     f3.write("認知／社交功能: %3d\t\t\t%3s\n" % (cognitive_social_total, sum_scale[0]))
     f3.write("情緒／調節:     %3d\t\t\t%3s\n" % (emotions_regulation, sum_scale[1]))
