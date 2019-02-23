@@ -4,6 +4,7 @@ item_class = ["Attention", "Activity Level", "Impulsivity", "Adaptation",
               "Moods & Confidence", "Energy & Feelings", "Social Abilities", "Sensitivity & Regulation"]
 item_class_des = ["注意力", "活動量", "衝動性", "適應性", "情緒與自信", "活力與情感表達", "社交性", "感覺敏感與思考調節"]
 age_class_des = ["2歲~2歲11個月", "3歲~3歲11個月", "4歲~6歲11個月", "7歲~20歲11個月"]
+check_item = [9, 5, 5, 3, 10, 4, 6, 9]
 item_sum = []
 item_count = []
 item_scale = []
@@ -52,10 +53,10 @@ with open("scale_total.txt", "r") as f4:
         if i % 5 == sc+1:
 
             sum_scale.append(int(data_sp[i].split(sep="\t")[sum_scale_raw[q]-sum_item_count[q]]))
-            print(sum_scale[q])
+            # print(sum_scale[q])
             q = q + 1
-for i in range(len(item_scale)):
-    print("%-15s:%2d%2d" % (item_class_des[i], item_sum[i], item_scale[i]))
+# for i in range(len(item_scale)):
+#     print("%-15s:%2d%2d" % (item_class_des[i], item_sum[i], item_scale[i]))
 with open("output.txt", "w", encoding="utf-8") as f3:
     f3.write("Leiter-R Parent Rating Scale\n")
     f3.write("年齡 class:" + age_class_des[sc] + "\tclass:" + subject_age_class.upper() + "\n")
@@ -76,3 +77,6 @@ with open("output.txt", "w", encoding="utf-8") as f3:
     f3.write("認知／社交功能: %3d\t\t\t%3s\n" % (cognitive_social_total, sum_scale[0]))
     f3.write("情緒／調節:     %3d\t\t\t%3s\n" % (emotions_regulation, sum_scale[1]))
     f3.write("註：標註(*)為達臨床顯著性(cutoff point<=6)")
+for i in range(len(item_count)):
+    if item_count[i] != check_item[i]:
+        print(item_class_des[i], "題數錯誤，目前有:", item_count[i], "\t應有:", check_item[i])
