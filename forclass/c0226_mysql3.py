@@ -6,20 +6,24 @@ config = {"database": "db_01", "user": "sql_python", "password": "python"}
 con1 = False
 try:
     con1 = mysql.connect(**config)
-    # print("DB well opened")
     cursor = con1.cursor()
-    sql_cmd = "select empno, ename, salary from emp where salary >= %(salary)s"
-    # sql_cmd = "select empno, ename, salary from emp where salary >= %s"
+
+    sql_ins = "insert into emp values (%s, %s, %s, %s, %s, %s, %s)"
+    ins_data = (1011, "AAA", "2019-02-26", 80000, 400, "SA_REP", 1004)
+    sql_upd = "update emp set salary=%s where empno=%s"
+    upd_data = (95000, 1011)
+    sql_cmd = "select empno, ename, salary from emp "
+    sql_del = "delete from emp where empno = %s"
+    empno = 1009
     q_dict = {"salary": 50000}
-    # salary_d = 50000
-    cursor.execute(sql_cmd, q_dict)
-    # cursor.execute(sql_cmd, (salary_d,))
+    cursor.execute(sql_del, (empno,))
+    # cursor.execute(sql_ins, ins_data)
+    # cursor.execute(sql_upd, upd_data)
+    con1.commit()
+    cursor.execute(sql_cmd)
     data_raw = cursor.fetchall()
     raw_c = cursor.rowcount
     print(raw_c)
-    # print(data_raw)
-    # for empno, ename in cursor:
-    #     print(empno, ename)
     for data in data_raw:
         print(data)
 
