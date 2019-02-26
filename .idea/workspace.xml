@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0a94ba-ffb2-4e8a-9edc-754f270c759e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/forclass/c0226_mysql2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forclass/c0226_mysqlcon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc_task/main_13g.py" beforeDir="false" afterPath="$PROJECT_DIR$/etc_task/main_13g.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_python/hw6_3_empfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_python/hw6_3_empfile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +16,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw_python/hw6_3_empfile.py">
+        <entry file="file://$PROJECT_DIR$/forclass/c0226_mysqlcon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="50">
+              <caret line="2" column="23" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etc_task/main_13g.py">
+        <entry file="file://$PROJECT_DIR$/forclass/c0226_mysql2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="10" column="32" lean-forward="true" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc_task/scale_total.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc_task/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc_task/data_input.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="333">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,10 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hw_python/hw3_5_merse.py" />
-        <option value="$PROJECT_DIR$/hw_python/hw3_8_cov2_16.py" />
-        <option value="$PROJECT_DIR$/hw_python/hw_3_6_fact_R.py" />
-        <option value="$PROJECT_DIR$/forclass/c0131.py" />
         <option value="$PROJECT_DIR$/forclass/c0131_nonlocal.py" />
         <option value="$PROJECT_DIR$/hw_python/hw3_7_sumR.py" />
         <option value="$PROJECT_DIR$/hw_python/hw3_9_covR.py" />
@@ -120,16 +97,20 @@
         <option value="$PROJECT_DIR$/hw_python/data.csv" />
         <option value="$PROJECT_DIR$/hw_python/hw6_2_stack.py" />
         <option value="$PROJECT_DIR$/hw_python/hw6_1_employee.py" />
-        <option value="$PROJECT_DIR$/hw_python/hw6_3_empfile.py" />
         <option value="$PROJECT_DIR$/etc_task/test0222.py" />
         <option value="$PROJECT_DIR$/etc_task/scale_total.txt" />
+        <option value="$PROJECT_DIR$/etc_task/input.txt" />
+        <option value="$PROJECT_DIR$/etc_task/output.txt" />
         <option value="$PROJECT_DIR$/etc_task/main_13g.py" />
+        <option value="$PROJECT_DIR$/hw_python/hw6_3_empfile.py" />
+        <option value="$PROJECT_DIR$/forclass/c0226_mysqlcon.py" />
+        <option value="$PROJECT_DIR$/forclass/c0226_mysql2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1703" />
+    <option name="width" value="1186" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -151,7 +132,7 @@
             <path>
               <item name="Project_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_class" type="462c0819:PsiDirectoryNode" />
-              <item name="etc_task" type="462c0819:PsiDirectoryNode" />
+              <item name="forclass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,8 +163,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_13g">
-    <configuration name="hw6_1_employee" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.c0226_mysql2">
+    <configuration name="c0226_mysql2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +172,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forclass" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_python/hw6_1_employee.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forclass/c0226_mysql2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="c0226_mysqlcon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project_class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forclass/c0226_mysqlcon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,27 +219,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_python/hw6_3_empfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hw_6_2stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project_class" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Python\Project_class\hw_python\hw6_2_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.c0226_mysql2" />
+        <item itemvalue="Python.c0226_mysqlcon" />
+        <item itemvalue="Python.hw6_3_empfile" />
         <item itemvalue="Python.main_13g" />
         <item itemvalue="Python.test0222" />
-        <item itemvalue="Python.hw6_3_empfile" />
-        <item itemvalue="Python.hw_6_2stack" />
-        <item itemvalue="Python.hw6_1_employee" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550900225587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add catch errro">
+      <created>1550904863172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550904863172</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add catch errro">
+      <created>1550905732903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550905732903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,10 +352,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1703" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1186" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15735735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.228223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,34 +401,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add catch errro" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw_python/hw3_9_covR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forclass/c0128_ex2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw_python/hw3_6_fact_R.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forclass/c0131_importf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw_python/hw2_6_cutrope.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -711,24 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw_python/hw6_3_empfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc_task/test0222.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc_task/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -739,17 +692,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc_task/data_input.dat">
+    <entry file="file://$PROJECT_DIR$/etc_task/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc_task/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc_task/main_13g.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/abstracts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_python/hw6_3_empfile.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="10" column="32" lean-forward="true" selection-end-line="82" />
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forclass/c0226_mysqlcon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forclass/c0226_mysql2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
