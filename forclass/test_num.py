@@ -1,3 +1,2 @@
-# a = [[],[]]
-# a[1][0] = 2
-# print()
+import imghdr
+imghdr.what('IMG_1030.png')
